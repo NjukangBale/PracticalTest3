@@ -1,0 +1,41 @@
+footer{
+    .footerImg{
+        display: flex;
+        width: 100%;
+        margin-top: 100px;
+            img{
+                    width: 421.5px;
+                }
+    }
+    .link{
+        margin-top: -5px;
+        background-color: $footerColor;
+        h1{
+            text-align: center;
+            color: $darkCyan;
+            // margin: 30px;
+            padding: 50px;
+            font-weight: 500;
+            font-family: $fontFamily;
+            font-size: 34px;
+        }
+        .link{
+            height: 500px;
+            text-align: center;
+            margin: 30px 0 0;
+            
+            a{
+                text-decoration: none;
+                font-family: $fontFamily;
+                color: $darkCyan;
+                margin: 20px;
+                font-size: 20px;
+                font-weight: 900;
+
+            }
+            .fontIcon{
+                ma
+            }
+        }
+    }
+}

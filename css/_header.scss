@@ -1,0 +1,62 @@
+
+    .header{
+        width: 100%;
+        height: 800px;
+        background: url("../images/desktop/image-header.jpg") no-repeat;
+        background-size: cover;
+        .navBar{
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto ;
+            padding-top: 20px;
+            
+            .logo{
+                h1{
+                    color: $white;
+                    font-family: $fontFamily;
+                    font-size: 28px;
+                    text-transform: lowercase;
+                    
+                }
+            }
+
+            .navLink{
+                display: flex;
+                div{
+                    width: 120px;
+                    height: 40px;
+                    margin: 10px;
+                    padding: 10px;
+                    text-align: center;
+
+                    a{
+                        color: $white;
+                        text-decoration: none;
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                }
+                div:hover{
+                    background-color: $GrayishBlue;
+                    opacity: 1;
+                    color: $white;
+                    border-radius: 20px;
+                }
+            }
+        }
+        h1{
+            text-align: center;
+            color: $white;
+            font-size: 70px;
+            text-transform: uppercase;
+            font-family: $fontFamilyOne;
+            padding: 25px 0 0 50px;
+            font-weight: 900;
+        }
+        img{
+            position: relative;
+            left: 52%;
+            top: 58px;
+        }
+    }

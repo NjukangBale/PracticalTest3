@@ -1,0 +1,61 @@
+.container{
+    .boxContent{
+        .box{
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+        .boxOne{
+            width: 100%;
+            margin-top: -5px;
+            padding: 0;
+
+            h2{
+                @include headingText;
+            }
+            p{
+                @include PText;
+            }
+            button{
+                @include button;
+            }
+        }
+        .boxTwo{
+            width: 100%;
+            margin-bottom: -5px;
+            padding: 0;
+
+            img{
+                width: 100%;
+            }
+        }
+        .boxThree, .boxFour{
+            width: 844px;
+            height: 580px;
+            background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+            background-size: cover;
+            
+            h2{
+                @include headingText;
+                text-transform: capitalize;
+                position: relative;
+                top: 200px;
+                text-align: center;
+                opacity: .6;
+            }
+            p{
+                @include PText;
+                position: relative;
+                top: 200px;
+                text-align: center;
+                opacity: .7;
+                color: $darkCyan;
+            }
+        }
+        .boxFour{
+            background: url(../images/desktop/image-photography.jpg) no-repeat;
+            background-size: cover;
+        }
+        }
+    }
+}

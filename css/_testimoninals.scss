@@ -1,0 +1,34 @@
+.testimoney{
+    h1{
+        font-family: $fontFamilyOne;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 90px;
+        color: $DarkGrayishBlue;
+        opacity: .7;
+    }
+    .testi{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+
+        .emily, .thomas, .jennie{
+            text-align: center;
+            img{
+                border-radius: 50%;
+            }
+            h1, h3{
+                @include headingText;
+                margin: 50px 0 10px 0;
+                text-align: center;
+                color: black;
+            }
+            h3{
+                color: $DarkGrayishBlue;
+                opacity: .7;
+                font-size: 20px;
+                margin: 0;
+            }
+        }
+    }
+}

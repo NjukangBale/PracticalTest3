@@ -1,0 +1,28 @@
+@mixin headingText {
+        font-family: $fontFamilyOne;
+        color: $VeryDarkBlue;
+        font-weight: 500;
+        font-size: 26px;
+        text-align: left;
+        margin: 200px 190px 0;
+}
+
+@mixin PText {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $DarkGrayishBlue;
+    margin: 30px 190px;
+    line-height: 28px;
+}
+
+@mixin button {
+    width: 150px;
+    font-family: $fontFamilyOne;
+    text-transform: uppercase;
+    border-bottom: solid $softRed;
+    background-color: $white;
+    font-size: $fontSize;
+    outline: none;
+    margin: 30px 190px;
+    border-radius: 20px;
+}

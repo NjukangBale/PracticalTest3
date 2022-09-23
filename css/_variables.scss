@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$softRed: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$darkCyan: hsl(167, 46%, 22%);
+$darkBlue: hsl(198, 62%, 26%);
+$footerColor: hsl(168, 34%, 41%);
+
+$VeryDarkBlue: hsl(212, 27%, 19%);
+$DarkGrayishBlue: hsl(232, 10%, 55%);
+$white: hsl(0, 0%, 100%);
+$GrayishBlue:  hsla(210, 7%, 82%, 0.61);
+
+
+// Typography
+
+$fontSize:18px;
+
+// Font
+$fontFamily: "Barlow";
+$fontFamilyOne: "Fraunces";
+$weight: 600, 700, 900;
